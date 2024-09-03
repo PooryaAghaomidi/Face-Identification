@@ -1,0 +1,12 @@
+{
+  "people": {
+    "Target": [
+      "../data/known_people/face-1.jpg",
+      "../data/known_people/face-2.jpg",
+      "../data/known_people/face-3.jpg"
+    ]
+  },
+  "detection_model_path": "face_detection_service/models/yolov8n-face.pt",
+  "detection_threshold": 0.8,
+  "verification_threshold": 0.5
+}

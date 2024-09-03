@@ -1,27 +1,26 @@
 import os
+import json
 import logging
-from configs.cfg import CFG
-from capture.capture_video import extract_frames
-from targets.target_people import create_dataset
-from detection.face_detection import FaceDetection
-from forwarding.logger import log_helper, summary_helper
-from identification.identify_people import FrameIdentification
+from video_input_service.capture_video import extract_frames
+from face_detection_service.face_detection import FaceDetection
+from logging_service.logger import log_helper, summary_helper
+from face_identification_service.identify_people import FrameIdentification
 
 
 class FaceIdentification:
-    def __init__(self, log_file):
+    def __init__(self, configs_path, log_file):
         # Initialize logging
         if os.path.exists(log_file):
             os.remove(log_file)
         logging.basicConfig(filename=log_file, level=logging.INFO,
                             format='%(asctime)s %(levelname)s:%(message)s')
 
-        known_face_names, known_face_encodings = create_dataset(people_dictionaries=CFG['people'])
+        with open(configs_path, 'r') as file:
+            CFG = json.load(file)
 
         self.face_detection_module = FaceDetection(model_path=CFG['detection_model_path'],
                                                    confidence=CFG['detection_threshold'])
-        self.frame_identification_module = FrameIdentification(known_face_names=known_face_names,
-                                                               known_face_encodings=known_face_encodings,
+        self.frame_identification_module = FrameIdentification(people_dictionaries=CFG['people'],
                                                                threshold=CFG['verification_threshold'])
 
     def run(self, video_path):
@@ -51,4 +50,4 @@ class FaceIdentification:
 
 
 if __name__ == "__main__":
-    FaceIdentification('logs/face-identification.log').run('../data/task-video.mp4')
+    FaceIdentification('configs.JSON', '../logs/face-identification.log').run('../data/task-video.mp4')

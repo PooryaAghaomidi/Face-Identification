@@ -3,23 +3,22 @@ import numpy as np
 import face_recognition
 from time import time
 from typing import List, Dict, Tuple
+from .target_people import create_dataset
 
 
 class FrameIdentification:
-    def __init__(self, known_face_names: List[str], known_face_encodings: List[np.ndarray], threshold: float):
+    def __init__(self, people_dictionaries: dict, threshold: float):
         """
         Initialize the FrameIdentification class with known faces and a verification threshold.
 
         Args:
-            known_face_names (List[str]): List of names corresponding to the known face encodings.
-            known_face_encodings (List[np.ndarray]): List of face encodings for known individuals.
+            people_dictionaries (dict): List of known people and their images.
             threshold (float): Threshold for face verification (e.g., 0.6 is commonly used).
         """
         logging.info("Initializing the Face Recognition Service ...")
         print("Initializing the Face Recognition Service ...")
 
-        self.known_face_names = known_face_names
-        self.known_face_encodings = known_face_encodings
+        self.known_face_names, self.known_face_encodings = create_dataset(people_dictionaries=people_dictionaries)
         self.threshold = threshold
 
     def verify_frame(self, frame: np.ndarray, face_locations: List[Tuple[int, int, int, int]]) -> dict:

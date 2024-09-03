@@ -1,0 +1,78 @@
+2024-09-03 15:39:45,851 INFO:Initializing the Face Detection Service ...
+2024-09-03 15:39:45,896 INFO:Initializing the Face Recognition Service ...
+2024-09-03 15:39:45,896 INFO:Initializing a database out of provided images ...
+2024-09-03 15:39:59,308 INFO:Initializing the Video Input Service ...
+
+
+2024-09-03 15:40:02,356 INFO: 0.0: 3 people detected, 0 people verified.
+2024-09-03 15:40:02,356 INFO: extraction: 0.019s - detection: 2.367s - identification: 0.647s - overall: 3.032s
+2024-09-03 15:40:02,356 INFO: all results: [{'Verified': False, 'ID': None, 'Coordinates': (1138, 284, 1196, 372)}, {'Verified': False, 'ID': None, 'Coordinates': (504, 194, 546, 246)}, {'Verified': False, 'ID': None, 'Coordinates': (54, 310, 98, 368)}]
+
+2024-09-03 15:40:03,015 INFO: 0.04: 3 people detected, 0 people verified.
+2024-09-03 15:40:03,015 INFO: extraction: 0.003s - detection: 0.008s - identification: 0.645s - overall: 0.656s
+2024-09-03 15:40:03,015 INFO: all results: [{'Verified': False, 'ID': None, 'Coordinates': (1140, 294, 1202, 388)}, {'Verified': False, 'ID': None, 'Coordinates': (506, 194, 546, 244)}, {'Verified': False, 'ID': None, 'Coordinates': (54, 310, 98, 366)}]
+
+2024-09-03 15:40:03,448 INFO: 0.08: 2 people detected, 0 people verified.
+2024-09-03 15:40:03,448 INFO: extraction: 0.003s - detection: 0.007s - identification: 0.423s - overall: 0.433s
+2024-09-03 15:40:03,448 INFO: all results: [{'Verified': False, 'ID': None, 'Coordinates': (1152, 318, 1212, 406)}, {'Verified': False, 'ID': None, 'Coordinates': (506, 190, 546, 244)}]
+
+2024-09-03 15:40:03,882 INFO: 0.12: 2 people detected, 0 people verified.
+2024-09-03 15:40:03,882 INFO: extraction: 0.004s - detection: 0.007s - identification: 0.423s - overall: 0.434s
+2024-09-03 15:40:03,882 INFO: all results: [{'Verified': False, 'ID': None, 'Coordinates': (1152, 318, 1212, 406)}, {'Verified': False, 'ID': None, 'Coordinates': (506, 190, 546, 244)}]
+
+2024-09-03 15:40:04,317 INFO: 0.16: 2 people detected, 0 people verified.
+2024-09-03 15:40:04,317 INFO: extraction: 0.003s - detection: 0.008s - identification: 0.423s - overall: 0.434s
+2024-09-03 15:40:04,317 INFO: all results: [{'Verified': False, 'ID': None, 'Coordinates': (1154, 332, 1220, 426)}, {'Verified': False, 'ID': None, 'Coordinates': (504, 192, 546, 244)}]
+
+2024-09-03 15:40:04,753 INFO: 0.2: 2 people detected, 0 people verified.
+2024-09-03 15:40:04,753 INFO: extraction: 0.002s - detection: 0.008s - identification: 0.427s - overall: 0.437s
+2024-09-03 15:40:04,753 INFO: all results: [{'Verified': False, 'ID': None, 'Coordinates': (1162, 344, 1226, 438)}, {'Verified': False, 'ID': None, 'Coordinates': (502, 188, 546, 246)}]
+
+2024-09-03 15:40:05,191 INFO: 0.24: 2 people detected, 0 people verified.
+2024-09-03 15:40:05,191 INFO: extraction: 0.003s - detection: 0.011s - identification: 0.424s - overall: 0.438s
+2024-09-03 15:40:05,191 INFO: all results: [{'Verified': False, 'ID': None, 'Coordinates': (1166, 358, 1232, 456)}, {'Verified': False, 'ID': None, 'Coordinates': (502, 190, 544, 246)}]
+
+2024-09-03 15:40:05,626 INFO: 0.28: 2 people detected, 0 people verified.
+2024-09-03 15:40:05,626 INFO: extraction: 0.002s - detection: 0.008s - identification: 0.426s - overall: 0.436s
+2024-09-03 15:40:05,626 INFO: all results: [{'Verified': False, 'ID': None, 'Coordinates': (1180, 384, 1244, 476)}, {'Verified': False, 'ID': None, 'Coordinates': (498, 194, 544, 246)}]
+
+2024-09-03 15:40:06,078 INFO: 0.32: 2 people detected, 0 people verified.
+2024-09-03 15:40:06,078 INFO: extraction: 0.003s - detection: 0.007s - identification: 0.442s - overall: 0.452s
+2024-09-03 15:40:06,078 INFO: all results: [{'Verified': False, 'ID': None, 'Coordinates': (1180, 384, 1244, 476)}, {'Verified': False, 'ID': None, 'Coordinates': (498, 194, 544, 246)}]
+
+2024-09-03 15:40:06,534 INFO: 0.36: 2 people detected, 0 people verified.
+2024-09-03 15:40:06,534 INFO: extraction: 0.004s - detection: 0.016s - identification: 0.436s - overall: 0.456s
+2024-09-03 15:40:06,534 INFO: all results: [{'Verified': False, 'ID': None, 'Coordinates': (1184, 394, 1250, 488)}, {'Verified': False, 'ID': None, 'Coordinates': (498, 194, 544, 246)}]
+
+2024-09-03 15:40:06,772 INFO: 0.4: 1 people detected, 0 people verified.
+2024-09-03 15:40:06,773 INFO: extraction: 0.003s - detection: 0.025s - identification: 0.21s - overall: 0.238s
+2024-09-03 15:40:06,773 INFO: all results: [{'Verified': False, 'ID': None, 'Coordinates': (1184, 406, 1254, 504)}]
+
+2024-09-03 15:40:07,023 INFO: 0.44: 1 people detected, 0 people verified.
+2024-09-03 15:40:07,023 INFO: extraction: 0.002s - detection: 0.039s - identification: 0.209s - overall: 0.25s
+2024-09-03 15:40:07,023 INFO: all results: [{'Verified': False, 'ID': None, 'Coordinates': (1188, 414, 1260, 512)}]
+
+2024-09-03 15:40:07,260 INFO: 0.48: 1 people detected, 0 people verified.
+2024-09-03 15:40:07,260 INFO: extraction: 0.003s - detection: 0.026s - identification: 0.208s - overall: 0.237s
+2024-09-03 15:40:07,260 INFO: all results: [{'Verified': False, 'ID': None, 'Coordinates': (1184, 434, 1260, 542)}]
+
+2024-09-03 15:40:07,503 INFO: 0.52: 1 people detected, 0 people verified.
+2024-09-03 15:40:07,503 INFO: extraction: 0.003s - detection: 0.029s - identification: 0.211s - overall: 0.243s
+2024-09-03 15:40:07,503 INFO: all results: [{'Verified': False, 'ID': None, 'Coordinates': (1184, 434, 1260, 542)}]
+
+2024-09-03 15:40:07,953 INFO: 0.56: 2 people detected, 0 people verified.
+2024-09-03 15:40:07,953 INFO: extraction: 0.002s - detection: 0.029s - identification: 0.418s - overall: 0.45s
+2024-09-03 15:40:07,953 INFO: all results: [{'Verified': False, 'ID': None, 'Coordinates': (1182, 444, 1256, 552)}, {'Verified': False, 'ID': None, 'Coordinates': (498, 196, 542, 244)}]
+
+2024-09-03 15:40:08,405 INFO: 0.6: 2 people detected, 0 people verified.
+2024-09-03 15:40:08,405 INFO: extraction: 0.003s - detection: 0.028s - identification: 0.421s - overall: 0.452s
+2024-09-03 15:40:08,405 INFO: all results: [{'Verified': False, 'ID': None, 'Coordinates': (1170, 458, 1252, 570)}, {'Verified': False, 'ID': None, 'Coordinates': (498, 196, 540, 246)}]
+
+2024-09-03 15:40:08,857 INFO: 0.64: 2 people detected, 0 people verified.
+2024-09-03 15:40:08,857 INFO: extraction: 0.004s - detection: 0.029s - identification: 0.419s - overall: 0.452s
+2024-09-03 15:40:08,857 INFO: all results: [{'Verified': False, 'ID': None, 'Coordinates': (1164, 468, 1244, 584)}, {'Verified': False, 'ID': None, 'Coordinates': (498, 196, 540, 246)}]
+
+2024-09-03 15:40:09,316 INFO: 0.68: 2 people detected, 0 people verified.
+2024-09-03 15:40:09,317 INFO: extraction: 0.003s - detection: 0.029s - identification: 0.427s - overall: 0.459s
+2024-09-03 15:40:09,317 INFO: all results: [{'Verified': False, 'ID': None, 'Coordinates': (1144, 488, 1224, 616)}, {'Verified': False, 'ID': None, 'Coordinates': (498, 196, 540, 246)}]
+

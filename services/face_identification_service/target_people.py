@@ -1,7 +1,6 @@
 import logging
 import numpy as np
 import face_recognition
-from time import time
 from PIL import Image, ImageOps
 from typing import Dict, List, Tuple
 
@@ -15,7 +14,7 @@ def create_dataset(people_dictionaries: Dict[str, List[str]]) -> Tuple[List[str]
     """
 
     logging.info("Initializing a database out of provided images ...")
-    print("\nInitializing a database out of provided images ...")
+    print("Initializing a database out of provided images ...")
 
     known_face_names = []  # List to store names corresponding to each face encoding
     image_paths = []       # List to store the paths of images to process
